@@ -1,3 +1,4 @@
+const e = require('express');
 var express = require('express');
 var router = express.Router();
 const fs = require('fs');
@@ -24,7 +25,11 @@ router.get('/:email', function(req, res, next) {
   for (i = 0; i < users.length; i++) {
     if (users[i].email == userMail) {
       var user = users[i]; }}
+  if (!user) {
+    return res.status(404).send('<h1>Email non trovata</h1>');
+  } else {
   res.send(user);
+  }
 });
 
 
