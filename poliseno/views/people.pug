@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= user.name.first
+  img(src=`${user.picture.large}`, alt="userPicture")
+  p Nome: #{user.name.first} #{user.name.last} 
+  p EMail: #{user.email}
+

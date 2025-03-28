@@ -4,4 +4,5 @@ block content
   h1 Lista Users
   ul
     each user in users 
+      a(href=`/pages/people/${user.email}`) 
         li= user.name.first
