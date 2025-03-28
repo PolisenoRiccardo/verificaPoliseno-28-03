@@ -16,12 +16,16 @@ var users = getUsers().results;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-
-/* GET users listing. */
-router.get('/rest/users', function(req, res, next) {
   res.render('users', {users: users})
 });
+
+router.get('/:email', function(req, res, next) {
+  const userMail = req.params.email;
+  for (i = 0; i < users.length; i++) {
+    if (users[i].email == userMail) {
+      var user = users[i]; }}
+  res.send(user);
+});
+
 
 module.exports = router;
