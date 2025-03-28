@@ -24,6 +24,4 @@ router.get('/people/:email', function(req, res, next) {
   res.render('people', {user: user})
 });
 
-
-
 module.exports = router;

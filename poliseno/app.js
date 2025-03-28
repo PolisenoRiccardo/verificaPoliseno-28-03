@@ -25,8 +25,8 @@ app.use('/rest/users', usersRouter);
 app.use('/pages', pagesRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+app.get('*', function(req, res){
+  res.status(404).send('<h1>Guarda che questa pagina non esiste!</h1>');
 });
 
 // error handler
@@ -39,5 +39,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 module.exports = app;
