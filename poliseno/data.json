@@ -1,0 +1,105 @@
+{
+    "results": [
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Magne",
+          "last": "Jenssen"
+        },
+        "id": {
+          "name": "FN",
+          "value": "05116529345"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/82.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/82.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/82.jpg"
+        }, 
+        "email" : "magne.jenssen@ver.it",
+        "nat": "NO"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Vito",
+          "last": "Novaes"
+        },
+        "id": {
+          "name": "CPF",
+          "value": "859.635.145-45"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/84.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+        },
+        "email" : "vito.novaes@ver.it",
+        "nat": "BR"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Julio César",
+          "last": "Calvillo"
+        },
+        "id": {
+          "name": "NSS",
+          "value": "37 11 14 1602 1"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/99.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
+        },
+        "email" : "julio.calvillo@ver.it",
+        "nat": "MX"
+      },
+      {
+        "gender": "female",
+        "name": {
+          "title": "Mrs",
+          "first": "Sushmitha",
+          "last": "Shayana"
+        },
+        "id": {
+          "name": "UIDAI",
+          "value": "372825903229"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/28.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+        },
+        "email" : "sushmitha.shayana@ver.it",
+        "nat": "IN"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Praneel",
+          "last": "Bharanya"
+        },
+        "id": {
+          "name": "UIDAI",
+          "value": "988951781198"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/12.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+        },
+        "email" : "praneel.bharanya@ver.it",
+        "nat": "IN"
+      }
+    ],
+    "info": {
+      "seed": "58c0b0c02d1bffff",
+      "results": 5,
+      "page": 1,
+      "version": "1.4"
+    }
+  }
